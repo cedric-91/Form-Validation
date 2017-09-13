@@ -1,0 +1,52 @@
+body, html {
+  font-family: arial, sans;
+  line-height: 1.2;
+}
+
+h1 {
+  text-align: center;
+}
+form {
+  max-width: 50%;
+  height: auto;
+  padding: 30px 5px;
+  margin: 0 auto;
+  background-color: #ccc;
+  border: 1px solid #ddd;
+  text-align: center;
+  border-radius: 0.6em;
+}
+
+input {
+  border: none;
+  padding: 10px 8px;
+}
+
+span {
+  padding: 4px 0;
+  color: red;
+  display: block;
+}
+
+.submit-btn {
+  padding: 15px 40px;
+  font-weight: bold;
+  color: black;
+  cursor: pointer;
+  background-color: #eee;
+  transition: all 500ms ease-in-out 0s;
+}
+
+.submit-btn:hover {
+  box-shadow: 2px 2px 8px rgba(0,0,0, 0.4);
+}
+
+.display-results {
+  display: none;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.display-name {
+  display: inline;
+}
